@@ -3,12 +3,13 @@ import numpy as np
 import pickle
 import cvzone
 from twilio.rest import Client
+from config import TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN
 
-account_sid = 'AC0c2bb5ae54fe348af5ab036ad9f800a4'
-auth_token = '4b5c04c4df54fd1ead0e3814bab21cbe'
+account_sid = TWILIO_ACCOUNT_SID
+auth_token = TWILIO_AUTH_TOKEN
 client = Client(account_sid, auth_token)
 
-cap = cv2.VideoCapture('carPark.mp4');
+cap = cv2.VideoCapture('carPark.mp4')
 
 
 
@@ -69,5 +70,4 @@ while True:
 
 
 
-    # recoverable code: C498FKAZLFKDU1L732BMS979
-    # phone number: +19283230285
+    
