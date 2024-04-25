@@ -1,0 +1,5 @@
+TWILIO_ACCOUNT_SID = 'AC0c2bb5ae54fe348af5ab036ad9f800a4'
+TWILIO_AUTH_TOKEN = '4b5c04c4df54fd1ead0e3814bab21cbe'
+
+# recoverable code: C498FKAZLFKDU1L732BMS979
+    # phone number: +19283230285
